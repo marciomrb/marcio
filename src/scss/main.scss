@@ -1,0 +1,236 @@
+$ver: #4bffa5;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+img {
+  visibility: visible !important;
+}
+body {
+  background: #1d1d1d !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.descript {
+  max-width: 50%;
+}
+.titlesec {
+  color: $ver;
+  position: relative;
+  &:after {
+    content: '';
+    width: 33%;
+    height: 2px;
+    background: $ver;
+    display: block;
+    left: 33%;
+    position: absolute;
+    bottom: -20px;
+    margin-bottom: 10px;
+
+  }
+}
+
+header {
+  height: 10vh;
+  background-color:rgba(0,0,0,0.5) !important;
+  .container {
+  .navbar {    
+      .navbar-brand {
+        font-size: 1.3rem;
+        color: $ver;
+        font-weight: bold;
+        border: 3px solid $ver;
+        padding: 5px 10px;
+      }
+      .navbar-collapse {
+        .navbar-nav {
+          a {
+            position: relative;
+            color: white;
+            margin-right: 30px;
+            padding: 0;
+            &:last-child {
+              margin-right: 0;
+            }
+            &:after {
+              content: '';
+              width: 0%;
+              height: 2px;
+              background-color: $ver;
+              position: absolute;
+              display: block;
+              bottom: -5px;
+              left: 0%;
+              transition: 300ms ease-in-out;
+            }
+            &:hover:after {
+              width: 30%;
+              transform: translateX(100%);
+            }
+          
+            &:hover {
+              color: $ver;              
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+}
+#sobreMim {
+  .container {
+    .row {
+      .col {
+        img {
+          z-index: 3;
+        }
+        .sobreText {
+          background-color: rgba(0,0,0,0.5) !important;
+          padding-left: 50px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          padding-right: 30px;
+          margin-left: -60px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h2 {
+            color: $ver;
+          }
+          p {
+            line-height: 1.8;
+            letter-spacing: 1px;
+            code {
+              font-size: 1.2rem;
+              color: $ver;
+            }
+          }
+
+          ul.socialmidia {
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            padding: 0px !important;
+            margin: 0px !important;
+            li {
+              list-style: none;
+              a {
+                img {
+                  width: 30px !important;
+                  max-width: 30px;
+                  &:hover {
+                    transform: scale(1.1);
+                    transition: 300ms;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        }
+      }
+    }
+  }
+
+
+
+
+.card {
+  .card-body {
+     .card-title {
+        color: black !important;
+          font-size: 1.25rem;
+      }
+    }
+ }
+
+ #port {
+   .container {
+     .row {
+       .col {
+         .card {
+           a {
+             color: black;
+             text-decoration: none;
+           }
+         }
+       }
+     }
+   }
+
+ }
+
+
+.list-item-custom {
+    display: flex !important;
+      .list1, {
+        color: black !important;             
+      }
+      .list2 {
+        background: black;
+        padding: 10px 15px;
+        height: fit-content;        
+      }
+   .list1 {
+     width: 80%;
+     .title-list {
+       font-weight: 1.7rem !important;
+       font-weight: 600;
+     }
+    }
+}
+
+
+
+
+
+
+
+.swiper-container {
+  height: 90vh;
+  width: 100%;
+  color: white;
+}
+
+
+
+// delays
+.delay-015 {
+  animation-delay: 0.15s;
+}
+.delay-025 {
+  animation-delay: 0.25s;
+}
+.delay-035 {
+  animation-delay: 0.35s;
+}
+.delay-045 {
+  animation-delay: 0.45s;
+}
+.delay-050 {
+  animation-delay: 0.5s;
+}
+.delay-065 {
+  animation-delay: 0.65s;
+}
+.delay-075 {
+  animation-delay: 0.75s;
+}
+.delay-085 {
+  animation-delay: 0.85s;
+}
+
+// class animate
+div.swiper-slide-active * .shouldAnimate, div.swiper-slide-active .shouldAnimate {
+  -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+div.swiper-slide:not(.swiper-slide-active) * .shouldAnimate, div.swiper-slide:not(.swiper-slide-active) .shouldAnimate {
+  -webkit-animation-name: none !important;
+  animation-name: none !important;
+  }
