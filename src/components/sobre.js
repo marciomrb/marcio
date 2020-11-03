@@ -10,7 +10,7 @@ export default function Sobre() {
         <Row lg={2}>
 
           <Col lg={6} className="col">
-            <Image src="/mc.png" width="540" height="640" className="animate__bounceInLeft shouldAnimate animate_slow delay-025"></Image>
+            <Image src="/mc.png" width={540} height={640} loading="eager" className="animate__bounceInLeft shouldAnimate animate_slow delay-025"></Image>
           </Col>
 
           <Col lg={6} className="my-auto animate__bounceInRight shouldAnimate col">

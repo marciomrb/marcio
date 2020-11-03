@@ -13,7 +13,7 @@ export default function Portfolio({ beha }) {
            <Col key={behance.id} lg={3} className="mb-3 col">
               <Card className="h-100">   
               <Link href={behance.url}><a target="_blank">      
-                <Image src={behance.covers['original']} width="250" height="180"></Image>
+                <Image src={behance.covers['original']} width={250} height={180}></Image>
                 <Card.Title className="text-black text-center">{behance.name}</Card.Title>
                 </a>   
                 </Link>    

@@ -12,7 +12,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInDown shouldAnimate">
-            <Image src="/word.png" width="158" height="154"></Image>
+            <Image src="/word.png" width={158} height={154}></Image>
             <Card.Body>
               <Card.Title className="text-center">Wordpress</Card.Title>
               <ProgressBar variant="success" now={100} label={'100%'} />
@@ -22,7 +22,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInDown shouldAnimate delay-025">
-            <Image src="/woo.png" width="158" height="154"></Image>
+            <Image src="/woo.png" width={158} height={154}></Image>
             <Card.Body>
               <Card.Title className="text-center">Woo</Card.Title>
               <ProgressBar variant="success" now={90} label={'90%'} />
@@ -32,7 +32,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInDown shouldAnimate delay-035">
-            <Image src="/html.png" width="158" height="154"></Image>
+            <Image src="/html.png" width={158} height={154}></Image>
             <Card.Body>
               <Card.Title className="text-center">HTML</Card.Title>
               <ProgressBar variant="success" now={100} label={'100%'} />
@@ -42,7 +42,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInDown shouldAnimate delay-035">
-            <Image src="/css.png" width="158" height="154"></Image>
+            <Image src="/css.png" width={158} height={154}></Image>
             <Card.Body>
               <Card.Title className="text-center">CSS</Card.Title>
               <ProgressBar variant="success" now={100} label={'100%'} />
@@ -52,7 +52,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInDown shouldAnimate delay-045">
-            <Image src="/php.png" width="158" height="154"></Image>
+            <Image src="/php.png" width={158} height={154}></Image>
             <Card.Body>
               <Card.Title className="text-center">PHP</Card.Title>
               <ProgressBar variant="success" now={50} label={'50%'} />
@@ -62,7 +62,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInDown shouldAnimate delay-050">
-            <Image src="/js.png" width="158" height="154"></Image>
+            <Image src="/js.png" width={158} height={154}></Image>
             <Card.Body>
               <Card.Title className="text-center">Javascript</Card.Title>
               <ProgressBar variant="success" now={65} label={'65%'} />
@@ -72,7 +72,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInUp shouldAnimate delay-055">
-            <Image src="/react.png" width="154" height="154"></Image>
+            <Image src="/react.png" width="154" height={154}></Image>
             <Card.Body>
               <Card.Title className="text-center">ReactJS</Card.Title>
               <ProgressBar variant="success" now={65} label={'65%'} />
@@ -82,9 +82,9 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInUp shouldAnimate delay-060">
-            <Image src="/nextjs.png" width="154" height="154"></Image>
+            <Image src="/nextjs.png" width="154" height={154}></Image>
             <Card.Body>
-              <Card.Title className="text-center">ReactJS</Card.Title>
+              <Card.Title className="text-center">NextJS</Card.Title>
               <ProgressBar variant="success" now={55} label={'55%'} />
             </Card.Body>
           </Card>
@@ -92,7 +92,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100 animate__fadeInUp shouldAnimate delay-065">
-            <Image src="/seo.png" width="158" height="154"></Image>
+            <Image src="/seo.png" width={158} height={154}></Image>
             <Card.Body>
               <Card.Title className="text-center">SEO</Card.Title>
               <ProgressBar variant="success" now={75} label={'75%'} />

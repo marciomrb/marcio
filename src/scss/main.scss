@@ -234,3 +234,14 @@ div.swiper-slide:not(.swiper-slide-active) * .shouldAnimate, div.swiper-slide:no
   -webkit-animation-name: none !important;
   animation-name: none !important;
   }
+
+
+
+  @media screen and (max-width: 620px) {
+    .swiper-container {
+      min-height: 1000vh;
+      width: 100%;
+      color: white;
+    }
+
+  }
