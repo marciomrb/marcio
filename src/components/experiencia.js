@@ -59,7 +59,7 @@ export default function Experiencia() {
 
 
           <Col lg={6}>
-            <Image src="/work.svg" unsized></Image>
+            <Image src="/work.svg" layout="fill"></Image>
           </Col>
 
 

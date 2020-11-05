@@ -3,6 +3,7 @@ import '../scss/main.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
 import AOS from "aos";
+import Head from 'next/head';
 
 import "aos/dist/aos.css";
 
@@ -17,6 +18,9 @@ function MyApp({ Component, pageProps }) {
   
   return (
     <>
+      <Head>
+        <title>Marcio Campos | Currículo</title>
+      </Head>
       <Header />
       <Component {...pageProps} />
     </>

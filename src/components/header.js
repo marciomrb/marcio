@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Header(){
   return (
-    <header className="d-flex align-items-center justify-content-center sticky-top">
+    <header className="sticky-top">
        <Container>
       <Navbar bg="transparent" expand="lg">
        

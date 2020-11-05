@@ -8,11 +8,11 @@ export default function webdesign() {
         <p className="descript text-white text-center mb-3" data-aos="fade" data-aos-delay="650">Desde criação de um site HTML, CSS &amp; JS simples até um E-commerce. Deixando o SEO pronto para os motores de buscas.</p>
       
       <Container>
-      <Row sm={2} md={3} lg={6}>
+      <Row xs={2} sm={2} lg={6}>
 
         <Col className="mb-5">
           <Card className="h-100" data-aos="zoom-in-down" data-aos-delay="350">
-            <Image src="/word.png" width={158} height={154}></Image>
+            <Image src="/word.png"cl width={158} height={154} layout="responsive"></Image>
             <Card.Body>
               <Card.Title className="text-center">Wordpress</Card.Title>
               <ProgressBar variant="success" now={100} label={'100%'} />
@@ -22,7 +22,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100" data-aos="zoom-in-down" data-aos-delay="450">
-            <Image src="/woo.png" width={158} height={154}></Image>
+            <Image src="/woo.png"cl width={158} height={154} layout="responsive"></Image>
             <Card.Body>
               <Card.Title className="text-center">Woo</Card.Title>
               <ProgressBar variant="success" now={90} label={'90%'} />
@@ -32,7 +32,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100" data-aos="zoom-in-down" data-aos-delay="550">
-            <Image src="/html.png" width={158} height={154}></Image>
+            <Image src="/html.png"cl width={158} height={154} layout="responsive"></Image>
             <Card.Body>
               <Card.Title className="text-center">HTML</Card.Title>
               <ProgressBar variant="success" now={100} label={'100%'} />
@@ -42,7 +42,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100" data-aos="zoom-in-down" data-aos-delay="650">
-            <Image src="/css.png" width={158} height={154}></Image>
+            <Image src="/css.png"cl width={158} height={154} layout="responsive"></Image>
             <Card.Body>
               <Card.Title className="text-center">CSS</Card.Title>
               <ProgressBar variant="success" now={100} label={'100%'} />
@@ -52,7 +52,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100" data-aos="zoom-in-down" data-aos-delay="750">
-            <Image src="/php.png" width={158} height={154}></Image>
+            <Image src="/php.png"cl width={158} height={154} layout="responsive"></Image>
             <Card.Body>
               <Card.Title className="text-center">PHP</Card.Title>
               <ProgressBar variant="success" now={50} label={'50%'} />
@@ -62,7 +62,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100" data-aos="zoom-in-down" data-aos-delay="850">
-            <Image src="/js.png" width={158} height={154}></Image>
+            <Image src="/js.png"cl width={158} height={154} layout="responsive"></Image>
             <Card.Body>
               <Card.Title className="text-center">Javascript</Card.Title>
               <ProgressBar variant="success" now={65} label={'65%'} />
@@ -92,7 +92,7 @@ export default function webdesign() {
 
         <Col className="mb-5">
           <Card className="h-100" data-aos="zoom-in-down" data-aos-delay="1250">
-            <Image src="/seo.png" width={158} height={154}></Image>
+            <Image src="/seo.png"cl width={158} height={154} layout="responsive"></Image>
             <Card.Body>
               <Card.Title className="text-center">SEO</Card.Title>
               <ProgressBar variant="success" now={75} label={'75%'} />

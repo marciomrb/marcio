@@ -1,5 +1,4 @@
 $ver: #4bffa5;
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 img {
   visibility: visible !important;
@@ -31,6 +30,9 @@ body {
 header {
   height: 10vh;
   background-color:rgba(0,0,0,0.5) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   .container {
   .navbar {    
       .navbar-brand {
@@ -183,44 +185,50 @@ header {
     }
 }
 
+@media (min-width: 300px) and (max-width: 500px) {
+  header {
+    display: none !important;
+  }
+  #sobreMim {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .container {
+      .row { 
+        
+        .col-img {
+          z-index: 1;
+        }
+        .col-txt {  
+          z-index: 3;        
+          .sobreText {
+            padding: 10px;
+            margin: 0;
+            margin-top: -250px;
+            z-index: 9999 !important;
+            background-color: rgba(0, 0, 0, 0.8) !important
+          }
+        }
+      }
+    }
+  }
+
+  #designer {
+    p {
+      max-width: 95% !important;
+    }
+  }
+
+  #webdesign {
+    p {
+      max-width: 95% !important;
+    }
+  }
+
+  #port {
+    p {
+      max-width: 95% !important;
+    }
+  }
 
 
-
-
-
-
-.swiper-container {
-  height: 90vh;
-  width: 100%;
-  color: white;
 }
-
-
-
-// delays
-.delay-015 {
-  animation-delay: 0.15s;
-}
-.delay-025 {
-  animation-delay: 0.25s;
-}
-.delay-035 {
-  animation-delay: 0.35s;
-}
-.delay-045 {
-  animation-delay: 0.45s;
-}
-.delay-050 {
-  animation-delay: 0.5s;
-}
-.delay-065 {
-  animation-delay: 0.65s;
-}
-.delay-075 {
-  animation-delay: 0.75s;
-}
-.delay-085 {
-  animation-delay: 0.85s;
-}
-
-

@@ -7,15 +7,15 @@ export default function Sobre() {
   return (
     <section id="sobreMim" className="d-flex align-items-center min-vh-100">
       <Container >
-        <Row lg={2}>
-
-          <Col lg={6} className="col">
-            <Image src="/mc.png" width={540} height={640} loading="eager" className="animate__bounceInLeft shouldAnimate animate_slow delay-025"></Image>
+        
+        <Row xs={1} sm={1} lg={2}>
+          <Col className="col-img">
+            <Image src="/mc.png" width="540" height="640" className="img-mc" />
           </Col>
 
-          <Col lg={6} className="my-auto animate__bounceInRight shouldAnimate col">
+          <Col className="col-txt">
             <div className="sobreText">
-              <h2 className="text-center animate__bounceInDown delay-025 shouldAnimate">Sobre Mim</h2>
+              <h2 className="text-center">Sobre Mim</h2>
               <p className="text-justify p-1 texto text-white"><code>Olá mundo!</code> Meu nome é Márcio Campos, sou casado
               e moro em Tietê-SP. Sou Designer Gráfico e Web Designer! Gosto muito de aprender ferramentas novas, sempre estou procurando aprender.
               Tudo que sei foi fruto do meu esforço, procurando video aulas, pdf's. Aprendi a maioria das coisas no Youtube, fiz alguns cursos,
