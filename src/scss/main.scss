@@ -189,9 +189,7 @@ header {
   header {
     display: none !important;
   }
-  #sobreMim {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  #sobreMim { 
     .container {
       .row { 
         
@@ -228,6 +226,10 @@ header {
     p {
       max-width: 95% !important;
     }
+  }
+  #sobreMim, #designer, #webdesign, #port, #experiencia {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
 
