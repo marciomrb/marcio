@@ -16,17 +16,28 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
   }, []);
-  
+
   return (
     <>
       <Head>
-        <title>Marcio Campos | Currículo</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Marcio Campos">
+        <meta name="description" content="Curriculum Marcio Campos - Desginer Gráfico e Web Designer, Moro em Tietê-SP. Aqui você pode ver todas as habilidades e experiências que tive!">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta property="og:image" content="/capa.jpg">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="800">
+        <meta property="og:image:height" content="480">
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:url" content="https://marciocampos.com.br">
+        <meta property="og:title" content="Marcio Campos | Currículo">
+        <meta property="og:site_name" content="Marcio Campos">
+        <meta property="og:type" content="website">
       </Head>
-      <Header />
-      <Component {...pageProps} />
+        <Header />
+        <Component {...pageProps} />
     </>
   )
 }
 
-export default MyApp
+
