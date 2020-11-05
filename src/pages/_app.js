@@ -20,6 +20,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>Marcio Campos | Currículo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Marcio Campos" />
         <meta name="description" content="Curriculum Marcio Campos - Desginer Gráfico e Web Designer, Moro em Tietê-SP. Aqui você pode ver todas as habilidades e experiências que tive!" />
