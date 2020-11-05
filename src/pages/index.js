@@ -1,45 +1,18 @@
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Mousewheel, HashNavigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Mousewheel, HashNavigation]);
-
-
-
 import Sobre from '../components/sobre';
 import Design from '../components/design';
 import Web from '../components/webdesign';
 import Port from '../components/portfolio';
 import Exp from '../components/experiencia';
 
-
-export default function Home({beha}) {  
-
-
-  const params = {   
-    direction: "vertical",
-    hashNavigation: {
-      watchState: true,
-    },
-    mousewheel: {
-      invert: false,
-    },
-  };
-
-  return (  
+export default function Home({ beha }) {
+  return (
     <>
-      <Swiper {... params}>
-        <SwiperSlide data-hash="sobre" id="sobre"> <Sobre /> </SwiperSlide>
-        <SwiperSlide data-hash="design" id="design"> <Design /> </SwiperSlide>
-        <SwiperSlide data-hash="webdesign" id="webdesign"><Web /></SwiperSlide>
-        <SwiperSlide data-hash="portfolio" id="portfolio"><Port beha={beha}/></SwiperSlide>
-        <SwiperSlide data-hash="experiencia" id="experiencia"><Exp /></SwiperSlide>      
-    </Swiper>
-
+      <Sobre />
+      <Design />
+      <Web />
+      <Port beha={beha} />
+      <Exp />
     </>
-
-    
-
-    
- 
   );
 }
 

@@ -1,23 +1,25 @@
+import { useEffect } from "react";
 import '../scss/main.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../components/main';
 import 'animate.css';
+import AOS from "aos";
 
-// Import Swiper styles
-import 'swiper/swiper.scss';
-import 'swiper/components/navigation/navigation.scss';
-import 'swiper/components/pagination/pagination.scss';
-import 'swiper/components/scrollbar/scrollbar.scss';
+import "aos/dist/aos.css";
+
 
 import Header from '../components/header';
 
+
 function MyApp({ Component, pageProps }) {
- 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  
   return (
     <>
-  <Header />
-  <Component {...pageProps} />
-  </>
+      <Header />
+      <Component {...pageProps} />
+    </>
   )
 }
 

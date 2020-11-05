@@ -5,7 +5,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 
 export default function Sobre() {
   return (
-    <section id="sobreMim" className="d-flex align-items-center h-100">
+    <section id="sobreMim" className="d-flex align-items-center min-vh-100">
       <Container >
         <Row lg={2}>
 
@@ -14,11 +14,11 @@ export default function Sobre() {
           </Col>
 
           <Col lg={6} className="my-auto animate__bounceInRight shouldAnimate col">
-            <div className="sobreText">              
+            <div className="sobreText">
               <h2 className="text-center animate__bounceInDown delay-025 shouldAnimate">Sobre Mim</h2>
-              <p className="text-justify p-1 texto text-white"><code>Olá mundo!</code> Meu nome é Márcio Campos, sou casado 
-              e moro em Tietê-SP. Sou Designer Gráfico e Web Designer! Gosto muito de aprender ferramentas novas, sempre estou procurando aprender. 
-              Tudo que sei foi fruto do meu esforço, procurando video aulas, pdf's. Aprendi a maioria das coisas no Youtube, fiz alguns cursos, 
+              <p className="text-justify p-1 texto text-white"><code>Olá mundo!</code> Meu nome é Márcio Campos, sou casado
+              e moro em Tietê-SP. Sou Designer Gráfico e Web Designer! Gosto muito de aprender ferramentas novas, sempre estou procurando aprender.
+              Tudo que sei foi fruto do meu esforço, procurando video aulas, pdf's. Aprendi a maioria das coisas no Youtube, fiz alguns cursos,
               mas eu ja estava mais avançado. Estou sempre procurando a melhoras, procurando cursos, video aulas e tutoriais!</p>
 
               <ul className="socialmidia">

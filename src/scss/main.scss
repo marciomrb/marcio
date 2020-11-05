@@ -47,6 +47,7 @@ header {
             color: white;
             margin-right: 30px;
             padding: 0;
+            text-decoration: none;
             &:last-child {
               margin-right: 0;
             }
@@ -170,7 +171,8 @@ header {
       .list2 {
         background: black;
         padding: 10px 15px;
-        height: fit-content;        
+        height: fit-content;   
+        color: white !important;     
       }
    .list1 {
      width: 80%;
@@ -221,27 +223,4 @@ header {
   animation-delay: 0.85s;
 }
 
-// class animate
-div.swiper-slide-active * .shouldAnimate, div.swiper-slide-active .shouldAnimate {
-  -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-duration: var(--animate-duration);
-    animation-duration: var(--animate-duration);
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-div.swiper-slide:not(.swiper-slide-active) * .shouldAnimate, div.swiper-slide:not(.swiper-slide-active) .shouldAnimate {
-  -webkit-animation-name: none !important;
-  animation-name: none !important;
-  }
 
-
-
-  @media screen and (max-width: 620px) {
-    .swiper-container {
-      min-height: 1000vh;
-      width: 100%;
-      color: white;
-    }
-
-  }
