@@ -1,8 +1,5 @@
 $ver: #4bffa5;
 
-img {
-  visibility: visible !important;
-}
 body {
   background: #1d1d1d !important;
   font-family: 'Montserrat', sans-serif !important;
@@ -183,6 +180,12 @@ header {
        font-weight: 600;
      }
     }
+}
+
+.card-title {
+  color: #000!important;
+  font-size: 0.85rem !important;
+  font-weight: bold;
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
