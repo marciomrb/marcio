@@ -13,7 +13,7 @@ export default function Sobre() {
             <Image src="/mc.png" width="540" height="640" className="img-mc" />
           </Col>
 
-          <Col className="col-txt">
+          <Col className="col-txt my-auto">
             <div className="sobreText">
               <h2 className="text-center">Sobre Mim</h2>
               <p className="text-justify p-1 texto text-white"><code>Olá mundo!</code> Meu nome é Márcio Campos, sou casado
