@@ -1,7 +1,19 @@
 import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 import Image from 'next/image';
+import Lottie from 'react-lottie';
+import animationData from './working.json';
 
 export default function Experiencia() {
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true, 
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+
   return (
     <section id="expe" className="min-vh-100 d-flex flex-column align-items-center justify-content-center">
       <h1 className="text-center titlesec animate__fadeIn shouldAnimate delay-050 mb-5">Expêriencia Profissional</h1>
@@ -59,7 +71,10 @@ export default function Experiencia() {
 
 
           <Col lg={6}>
-            <Image src="/work.svg" layout="fill"></Image>
+          <Lottie options={defaultOptions}
+              height={550}
+              width={550} />   
+            {/* <Image src="/work.svg" layout="fill"></Image> */}
           </Col>
 
 
